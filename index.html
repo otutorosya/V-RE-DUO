@@ -9,124 +9,125 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="pointer-light" aria-hidden="true"></div>
-<div class="page-progress" aria-hidden="true"><span></span></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+<div class="page-progress"><span></span></div>
 
 <header class="header">
   <a class="header-logo" href="#top"><img src="logo-vreduo.png" alt="V-RE:DUO"></a>
   <nav id="nav">
     <a href="#about">ABOUT</a>
+    <a href="#featured">FEATURED</a>
     <a href="#members">MEMBER</a>
-    <a href="#collaboration">COLLAB</a>
     <a href="#mascot">MASCOT</a>
     <a href="#news">NEWS</a>
+    <a href="#recruit">RECRUIT</a>
     <a href="#contact">CONTACT</a>
   </nav>
-  <button id="menu" class="menu" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i><b>MENU</b></button>
+  <button id="menu" class="menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </header>
 
 <main id="top">
 <section class="hero">
   <div class="hero-grid"></div><div class="aurora a"></div><div class="aurora b"></div>
   <div class="hero-copy reveal">
-    <p class="live"><span></span> VIRTUAL RADIO IS LIVE</p>
+    <p class="live"><i></i> VIRTUAL RADIO IS LIVE</p>
     <img class="hero-logo" src="logo-vreduo.png" alt="V-RE:DUO">
     <h1>つながる声、<br><em>ひろがる世界。</em></h1>
-    <p class="hero-lead">配信者とリスナーを、もっと近くへ。<br>Virtual × Radio × DUOから生まれる、新しいエンターテインメント。</p>
-    <div class="hero-actions">
-      <a class="btn primary" href="#members">所属ライバーを見る <span>→</span></a>
-      <a class="btn outline" href="#contact">お問い合わせ <span>↗</span></a>
+    <p class="lead">配信者とリスナーを、もっと近くへ。<br>Virtual × Radio × DUOから生まれる、新しいエンターテインメント。</p>
+    <div class="actions">
+      <a class="btn primary" href="#members">所属ライバーを見る →</a>
+      <a class="btn outline" href="#about">事務所について ↗</a>
     </div>
-    <div class="platforms"><span>IRIAM</span><span>YouTube</span><span>Virtual Music</span><span>Original Project</span></div>
+    <div class="chips"><span>IRIAM</span><span>YouTube</span><span>Virtual Music</span><span>Original Project</span></div>
   </div>
-  <div class="hero-visual reveal">
-    <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
-    <img src="mascot-duo.png" alt="ハムラジくんとラジオッコ">
-    <div class="wave"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
-    <p>HAMURAJI &amp; RADIOKKO</p>
+  <div class="hero-stage reveal">
+    <img src="hero-stage.jpg" alt="沙門釈迦力と獺月愛識のライブステージ">
+    <div class="hero-stage-badge">BEAT × FROG</div>
   </div>
-  <a class="scroll" href="#about">SCROLL <span>↓</span></a>
+  <a class="scroll" href="#featured">SCROLL ↓</a>
+</section>
+
+<section class="section featured" id="featured">
+  <p class="section-no">01 / FEATURED COLLABORATORS</p>
+  <article class="featured-card reveal">
+    <img src="himecurry-banner.jpg" alt="媛カレー">
+    <div class="featured-overlay"></div>
+    <div class="featured-copy">
+      <p class="eyebrow">2.8D CREATOR GROUP</p>
+      <h2>媛カレー × V-RE:DUO</h2>
+      <p>ゲーム実況、雑談、踊ってみたなど、幅広いジャンルで活動する3人組配信グループ。</p>
+      <div class="person-badges">
+        <span><b>SHUN</b><small>左・ヘルメット</small></span>
+        <span><b>乙都呂赦</b><small>中央</small></span>
+        <span><b>雲黒斎</b><small>右・メガネ／通称クモ</small></span>
+      </div>
+      <div class="featured-actions">
+        <button class="btn primary" data-profile="himecurry">媛カレーについて見る →</button>
+        <a class="btn outline" href="https://youtube.com/channel/UCMbuWsmGd1DsWzReaDufFGw?si=_6njPQUCwye8A4fV" target="_blank" rel="noopener">YouTube ↗</a>
+      </div>
+    </div>
+  </article>
 </section>
 
 <section class="section about" id="about">
-  <p class="section-no">01 / ABOUT</p>
+  <p class="section-no">02 / ABOUT</p>
   <div class="split">
-    <div class="reveal">
-      <p class="eyebrow">OUR PHILOSOPHY</p>
-      <h2>「声」が届く場所を、<br>ともにつくる。</h2>
-    </div>
+    <div class="reveal"><p class="eyebrow">OUR PHILOSOPHY</p><h2>「声」が届く場所を、<br>ともにつくる。</h2></div>
     <div class="copy reveal">
       <p><strong>V-RE:DUO（ブイレデュオ）</strong>は、バーチャルの世界でラジオのように身近で、誰でも気軽に耳を傾けられる存在を目指すクリエイターグループです。</p>
       <p>YouTube配信者、バーチャル配信者、音楽配信者の個性を尊重し、企画・コラボ・発信を通して新しい表現を支えます。</p>
       <p>現在はグループとして活動しながら、将来は配信者が安心して挑戦できる事務所へ成長していきます。</p>
     </div>
   </div>
-  <div class="values">
-    <article class="reveal"><span>01</span><h3>VOICE</h3><p>一人ひとりの声と個性を大切にする。</p></article>
-    <article class="reveal"><span>02</span><h3>CONNECTION</h3><p>配信者とリスナー、仲間同士をつなぐ。</p></article>
-    <article class="reveal"><span>03</span><h3>CREATION</h3><p>企画と表現から新しい体験を生み出す。</p></article>
+
+  <div class="stats">
+    <article class="reveal"><strong data-count="3">0</strong><span>CREATORS</span><p>所属・活動ライバー</p></article>
+    <article class="reveal"><strong data-count="4">0</strong><span>COLLABORATION</span><p>企画・コラボ実績</p></article>
+    <article class="reveal"><strong data-count="2">0</strong><span>OFFICIAL MASCOTS</span><p>公式マスコット</p></article>
+    <article class="reveal"><strong>COMING</strong><span>FOLLOWERS</span><p>SNS総フォロワー</p></article>
   </div>
 </section>
 
 <section class="section members" id="members">
-  <p class="section-no">02 / MEMBER</p>
-  <div class="heading reveal"><div><p class="eyebrow">OUR CREATORS</p><h2>所属ライバー</h2></div><p>それぞれの世界観を、V-RE:DUOがつなぎます。</p></div>
+  <p class="section-no">03 / MEMBER</p>
+  <div class="heading reveal"><div><p class="eyebrow">OUR CREATORS</p><h2>所属ライバー</h2></div><p>個性豊かな配信者たちが、あなたの日常をもっと楽しく。</p></div>
 
-  <div class="member-list">
+  <div class="member-grid">
     <article class="member-card reveal">
-      <div class="member-img"><img src="shakado-profile.jpg" alt="沙門 釈迦力"><span>01</span></div>
-      <div class="member-body">
-        <p class="category">IRIAM LIVER / TALK</p>
-        <h3>沙門 釈迦力</h3><small>SHAKADO SHAKARIKI</small>
-        <div class="tags"><span>閻魔代理</span><span>自動車整備士</span><span>ゆる雑談</span><span>男性</span></div>
-        <p>閻魔代理を務めながら、現世では自動車整備士として働く男性ライバー。ふらっと立ち寄れて、気軽に話せるゆるい雑談時間を届けています。</p>
-        <div class="member-links">
-          <a href="https://x.com/syakariki_iriam?s=21&t=enc1lWXjnDQOuVr2cJdIOA" target="_blank" rel="noopener">X ↗</a>
-          <a href="https://web.iriam.app/s/user/MY4Gkzy27q?uuid=f175ac16" target="_blank" rel="noopener">IRIAM ↗</a>
-          <button data-profile="shakado">PROFILE →</button>
-        </div>
-      </div>
+      <div class="card-image"><img src="shakado-profile.jpg" alt="沙門 釈迦力"><span class="new">01</span></div>
+      <div class="card-content"><p class="category">IRIAM LIVER / TALK</p><h3>沙門 釈迦力</h3><small>SHAKADO SHAKARIKI</small>
+      <div class="tags"><span>閻魔代理</span><span>自動車整備士</span><span>ゆる雑談</span></div>
+      <p>閻魔代理を務めながら、現世では自動車整備士として働く男性ライバー。</p>
+      <button class="profile-btn" data-profile="shakado">PROFILE →</button></div>
     </article>
 
-    <article class="member-card reverse reveal">
-      <div class="member-img"><img src="usotsuki-profile.jpg" alt="獺月 愛識"><span>02</span></div>
-      <div class="member-body">
-        <p class="category">IRIAM LIVER / V-RAPPER</p>
-        <h3>獺月 愛識</h3><small>USOTSUKI KANASHIKI</small>
-        <div class="tags"><span>雑談</span><span>歌</span><span>コラボ企画</span><span>リリカルリリック</span></div>
-        <p>言葉とリズムで想いを届けるVラッパー。IRIAMを中心に雑談・歌・コラボ企画で活動し、YouTubeでは自身が作詞した楽曲を公開予定です。</p>
-        <div class="member-links">
-          <a href="https://x.com/usotuki_kanasi?s=11&t=enc1lWXjnDQOuVr2cJdIOA" target="_blank" rel="noopener">X ↗</a>
-          <a href="https://web.iriam.app/s/user/LXD8dgn1Rc?uuid=2e6" target="_blank" rel="noopener">IRIAM ↗</a>
-          <a href="https://youtube.com/channel/UCddPxfroxlUOyolnXkn5Djw?si=zroZo-s5bh1uHVws" target="_blank" rel="noopener">YouTube ↗</a>
-          <button data-profile="usotsuki">PROFILE →</button>
-        </div>
-      </div>
+    <article class="member-card reveal">
+      <div class="card-image"><img src="usotsuki-profile.jpg" alt="獺月 愛識"><span class="new">02</span></div>
+      <div class="card-content"><p class="category">IRIAM / V-RAPPER</p><h3>獺月 愛識</h3><small>USOTSUKI KANASHIKI</small>
+      <div class="tags"><span>雑談</span><span>歌</span><span>コラボ</span><span>リリカルリリック</span></div>
+      <p>言葉とリズムで想いを届けるVラッパー。YouTubeでは作詞した楽曲を公開予定。</p>
+      <button class="profile-btn" data-profile="usotsuki">PROFILE →</button></div>
     </article>
+
+    <article class="member-card reveal">
+      <div class="card-image"><img src="himecurry-profile.jpg" alt="媛カレー"><span class="new">NEW</span></div>
+      <div class="card-content"><p class="category">YOUTUBE GROUP / 2.8D</p><h3>媛カレー</h3><small>HIME CURRY</small>
+      <div class="tags"><span>ゲーム実況</span><span>雑談</span><span>踊ってみた</span><span>3人組</span></div>
+      <p>乙都呂赦・SHUN・雲黒斎の3人からなる2.8次元配信グループ。</p>
+      <button class="profile-btn" data-profile="himecurry">PROFILE →</button></div>
+    </article>
+
+    <article class="member-card coming reveal"><div><span>COMING SOON</span><p>新しいライバーが加入予定！</p></div></article>
   </div>
 </section>
 
-<section class="section collaboration" id="collaboration">
-  <p class="section-no">03 / COLLABORATION</p>
-  <article class="collab-card reveal">
-    <img src="duo-stage.jpg" alt="沙門 釈迦力と獺月 愛識のステージコラボ">
-    <div class="collab-copy">
-      <p class="eyebrow">BEAT × FROG</p>
-      <h2>声と音楽が交わる、<br>V-RE:DUOのステージ。</h2>
-      <p>雑談、歌、ラップ、コラボ企画。異なる個性が出会い、新しいエンターテインメントを生み出します。</p>
-    </div>
-  </article>
-</section>
-
 <section class="section mascot" id="mascot">
-  <p class="section-no light">04 / OFFICIAL MASCOTS</p>
+  <p class="section-no light">04 / MASCOT</p>
   <div class="mascot-grid">
-    <div class="mascot-img reveal"><img src="mascot-duo.png" alt="ハムラジくんとラジオッコ"></div>
-    <div class="reveal">
-      <p class="eyebrow cyan">YOUR VIRTUAL RADIO GUIDES</p>
-      <h2>ハムラジくん<br>&amp; ラジオッコ</h2>
-      <article><span>HAMURAJI</span><h3>ハムラジくん</h3><p>元気に声を届ける、小柄なハムスター。マイクとON AIRを担当するムードメーカーです。</p></article>
-      <article><span>RADIOKKO</span><h3>ラジオッコ</h3><p>ラジオを抱えたラッコ。音とつながりを大切にしながら、配信者とリスナーをそっと結びます。</p></article>
+    <div class="mascot-image reveal"><img src="mascot-duo.png" alt="ハムラジくんとラジオッコ"></div>
+    <div class="reveal"><p class="eyebrow cyan">OFFICIAL MASCOTS</p><h2>ハムラジくん<br>&amp; ラジオッコ</h2>
+      <article><span>HAMURAJI</span><h3>ハムラジくん</h3><p>元気に声を届ける、小柄なハムスター。マイクとON AIRを担当するムードメーカー。</p></article>
+      <article><span>RADIOKKO</span><h3>ラジオッコ</h3><p>ラジオを抱えたラッコ。配信者とリスナーをそっと結ぶナビゲーター。</p></article>
     </div>
   </div>
 </section>
@@ -134,22 +135,27 @@
 <section class="section news" id="news">
   <p class="section-no">05 / NEWS</p>
   <div class="heading reveal"><div><p class="eyebrow">LATEST UPDATES</p><h2>お知らせ</h2></div></div>
-  <div class="news-list">
-    <article class="reveal"><time>2026.08.14</time><span>MEMBER</span><h3>沙門 釈迦力、獺月 愛識のプロフィールを公開しました。</h3><b>→</b></article>
-    <article class="reveal"><time>2026.08.14</time><span>WEB</span><h3>V-RE:DUO公式サイトをリニューアルしました。</h3><b>→</b></article>
-    <article class="reveal"><time>COMING SOON</time><span>PROJECT</span><h3>今後の企画や活動情報はこちらでお知らせします。</h3><b>→</b></article>
+  <div class="news-cards">
+    <article class="reveal"><time>2026.08.14</time><span>NEW</span><h3>媛カレーを配信者紹介に追加しました。</h3></article>
+    <article class="reveal"><time>2026.08.14</time><span>WEB</span><h3>V-RE:DUO公式サイトをリニューアルしました。</h3></article>
+    <article class="reveal"><time>2026.08.14</time><span>MEMBER</span><h3>沙門 釈迦力・獺月 愛識のプロフィールを更新しました。</h3></article>
+    <article class="reveal"><time>COMING SOON</time><span>PROJECT</span><h3>新しい企画やコラボ情報をお知らせします。</h3></article>
+  </div>
+</section>
+
+<section class="section recruit" id="recruit">
+  <p class="section-no">06 / RECRUIT</p>
+  <div class="recruit-panel reveal">
+    <div><p class="eyebrow">JOIN V-RE:DUO</p><h2>あなたの「声」を、<br>世界へ。</h2><p>ライバー、VTuber、Vラッパー、動画編集、イラスト、Live2D、MV制作など、一緒に活動する仲間を募集しています。</p></div>
+    <div class="recruit-tags"><span>歌</span><span>雑談</span><span>ゲーム実況</span><span>ラップ</span><span>VTuber</span><span>Vライバー</span><span>動画編集</span><span>イラスト</span><span>Live2D</span><span>MV制作</span></div>
+    <a class="btn primary" href="#contact">募集について相談する →</a>
   </div>
 </section>
 
 <section class="section contact" id="contact">
-  <p class="section-no">06 / CONTACT</p>
+  <p class="section-no">07 / CONTACT</p>
   <div class="contact-panel reveal">
-    <div>
-      <p class="eyebrow">LET'S CONNECT</p>
-      <h2>声とアイデアを、<br>V-RE:DUOへ。</h2>
-      <p>所属、企画、コラボ、お仕事、活動支援などのお問い合わせを受け付けています。</p>
-      <a href="mailto:contact.vreduo@gmail.com">contact.vreduo@gmail.com</a>
-    </div>
+    <div><p class="eyebrow">LET'S CONNECT</p><h2>声とアイデアを、<br>V-RE:DUOへ。</h2><p>所属、企画、コラボ、お仕事、活動支援などのお問い合わせを受け付けています。</p><a href="mailto:contact.vreduo@gmail.com">contact.vreduo@gmail.com</a></div>
     <form id="contactForm">
       <label>お名前<input id="name" required placeholder="お名前"></label>
       <label>メールアドレス<input id="email" type="email" required placeholder="example@email.com"></label>
@@ -163,15 +169,15 @@
 
 <div class="profile-modal" id="profileModal" aria-hidden="true">
   <div class="modal-bg" data-close></div>
-  <section class="profile-card" role="dialog" aria-modal="true" aria-labelledby="modalName">
-    <button class="close" data-close aria-label="閉じる">×</button>
-    <div class="modal-img"><img id="modalImage" alt=""></div>
+  <section class="profile-card" role="dialog" aria-modal="true">
+    <button class="close" data-close>×</button>
+    <div class="modal-image"><img id="modalImage" alt=""></div>
     <div class="modal-content">
       <p id="modalCategory" class="category"></p>
       <h2 id="modalName"></h2><small id="modalReading"></small>
       <p id="modalDescription" class="modal-description"></p>
       <dl id="modalDetails"></dl>
-      <div class="member-links" id="modalLinks"></div>
+      <div class="modal-links" id="modalLinks"></div>
     </div>
   </section>
 </div>
@@ -179,8 +185,7 @@
 <footer>
   <img src="logo-vreduo.png" alt="V-RE:DUO">
   <div><p>つながる声、ひろがる世界。</p><small>© 2026 V-RE:DUO. All Rights Reserved.</small></div>
-  <a href="#top">BACK TO TOP ↑</a>
+  <a href="#top">TOP ↑</a>
 </footer>
-
 <script src="script.js"></script>
 </body></html>
