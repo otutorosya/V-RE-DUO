@@ -15,3 +15,8 @@ iPhoneのファイル選択画面で「すべて選択」を押し、表示さ�
 - ZIP自体をGitHubへアップロードしても自動展開されません。
 - index.htmlを含む全ファイルを選んでください。
 - 古いフォルダ assets / members / pages がGitHubに残っていても表示には影響しません。
+
+
+NEWS update 2026-08-21
+- 獺月 愛識 YouTube新作「A Iなんて知らない」をNEWSへ追加
+- NEWSカードをタップするとYouTube動画を直接開きます
