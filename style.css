@@ -24,3 +24,16 @@ footer{display:flex;align-items:center;justify-content:space-between;gap:25px;pa
 .news-link article{height:100%;transition:.25s}
 .news-link:hover article,.news-link:focus-visible article{transform:translateY(-5px);border-color:#ff4fc4;box-shadow:0 18px 45px #0005,0 0 22px #ff4fc422}
 .news-link article p{margin:10px 0 0;color:#9dadcc;font-size:12px;line-height:1.7}
+
+.mascot-official{background:linear-gradient(125deg,#0d1738,#243078 50%,#7a358a)}
+.official-mascot-wrap{max-width:1500px;margin:0 auto}
+.official-mascot-wrap>h2{text-align:center}
+.official-mascot-wrap>.eyebrow{text-align:center}
+.official-mascot-image{overflow:hidden;border:1px solid #ffffff2e;border-radius:28px;background:#fff;box-shadow:0 30px 80px #0007}
+.official-mascot-image img{display:block;width:100%;height:auto;animation:officialMascotFloat 7s ease-in-out infinite alternate}
+.official-mascot-wrap .actions{justify-content:center;margin-top:25px}
+@keyframes officialMascotFloat{from{transform:scale(1.005)}to{transform:scale(1.025)}}
+@media(max-width:760px){
+  .official-mascot-image{border-radius:18px}
+  .official-mascot-image img{animation:none}
+}
